@@ -1,0 +1,181 @@
+﻿/* Remove Save For Later in Page 1 */
+
+#form > div:nth-child(2) > div:nth-child(3) > div > button:nth-child(2){display: none;}
+/* Remove Print in Page 1 */
+#form > div:nth-child(2) > div:nth-child(3) > div > button:nth-child(3) {display: none;}
+
+/* Make button Next in 1st page gray */
+
+#form > div:nth-child(2) > div:nth-child(3) > div > button:nth-child(1) {background-color: lightgray;}
+
+/* Language in Page 1 */
+
+#form > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)
+{top: 30px;}
+
+/* Language in Page 2 */
+#form > div:nth-child(4) > div:nth-child(1) > div:nth-child(2)
+{top: 30px;}
+
+/* Language in Page 3 */
+#form > div:nth-child(6) > div:nth-child(1) > div:nth-child(2)
+{top: 30px;}
+
+/* Hide section for Add Members */
+
+#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(8) > div:nth-child(2){display: none;}
+#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(11) > div:nth-child(2){display: none;}
+
+/* Currency in CFAF */
+#form div[data-role=control][data-type=price] div[data-role=price-container] :after {
+display:block;
+content:"CFAF";
+padding-bottom:16px;
+line-height:30px;
+}
+/* Add button for new members */
+#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(3) > div > button {background-color: lightgray;
+padding-bottom:5px;
+line-height:15px;}
+/* colors */
+.wiGreen {
+	color: #8FBF7F;
+}
+.leBleu {
+	color: #1b75bb;
+}
+.leVert {
+	color: #8dc640;
+}
+.leGris {
+	color: #939597;
+}
+/* masthead */
+* {
+  box-sizing: border-box;
+}
+
+.mhRow {
+  background-color: #fff;
+}
+/* Create three unequal columns that floats next to each other */
+.mhColumn {
+  float: left;
+  padding: 10px;
+  height: 120px; /* Should be removed. Only for demonstration */
+}
+
+.mhLeft, .mhRight {
+width: 20%;
+}
+
+.mhMiddle {
+width: 60%;
+}
+
+/* Clear floats after the columns */
+.mhRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mhTitle {
+  width: 100%;
+	font-size: 40pt;
+	color: #1b75bb;
+	font-weight: 900;
+  text-align: center;
+  margin: 20px 5px 5px 5px;
+}
+/* Headers */
+.chapterHeading {
+	font-weight: 900 !important;
+	background-color: #8FBF7F;
+	padding: 2px;
+}
+
+/* IMAGES */
+.eneoLogo {
+	width: 200px;
+	height: 90px;
+	float: left;
+}
+.wiLogo {
+	width: 200px;
+	height: 98px;
+	float: right;
+}
+.centered  {
+  margin-left: auto;
+  margin-right: auto;
+	width: 90%;
+	display: block;
+}
+/* page 1, imgPasscode */
+@media (min-width: 600px) {
+  #imgPasscode {
+    width: 130px;
+    height: 130px;
+  }
+}
+@media (max-width: 600px) {
+  #imgPasscode {
+    width: 50px;
+    height: 50px;
+  }
+}
+/* page 2, imgSubSectionIcon, imgWarningTriangle */
+@media (min-width: 600px) {
+  #imgWelcomeSmiley {
+    width: 100px;
+    height: 100px;
+  }
+  .imgSubSectionIcon {
+    width: 30px;
+    height: 30px;
+  }
+  .imgSubSectionIconRect {
+    width: 50px;
+    height: 30px;
+  }
+  .imgSubSectionIconBigger {
+    width: 50px;
+    height: 50px;
+    margin-top: -6px;
+  }
+}
+@media (max-width: 600px) {
+  #imgWelcomeSmiley {
+    width: 50px;
+    height: 50px;
+  }
+  .imgSubSectionIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .imgSubSectionIconRect {
+    width: 35px;
+    height: 20px;
+  }
+  .imgSubSectionIconBigger {
+    width: 35px;
+    height: 35px;
+    margin-top: -3px;
+  }
+}
+/* page 3, make scorecard background color different
+
+#htmlblock-0000009b-acc{
+  background-color: rgba(27,117,187,0.4);
+} 
+#htmlblock-000000a2-acc {
+  background-color: rgba(27,117,187,0.4);
+}
+
+
+ */
+ #form > div:nth-child(6) > div:nth-child(2) > div:nth-child(7) > div:nth-child(2) > button, #form > div:nth-child(6) > div:nth-child(2) > div:nth-child(10) > div:nth-child(2) > button {
+	background-color: rgba(141,198,64,0.4);
+     box-shadow: 1px 1px grey;
+}
+
