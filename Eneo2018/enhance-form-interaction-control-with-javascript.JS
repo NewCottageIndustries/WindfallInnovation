@@ -1,4 +1,4 @@
-// https://www.123formbuilder.com/blog/2017/01/enhance-form-interaction-control-with-javascript/
+/* https://www.123formbuilder.com/blog/2017/01/enhance-form-interaction-control-with-javascript/ */
 /*field ids*/
 var dropdown_cid = '25540687';
 var textarea_cid = '25540688';
