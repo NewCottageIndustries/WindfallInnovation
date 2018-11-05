@@ -21,11 +21,6 @@
 #form > div:nth-child(6) > div:nth-child(1) > div:nth-child(2)
 {top: 30px;}
 
-/* Hide section for Add Members */
-
-#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(8) > div:nth-child(2){display: none;}
-#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(11) > div:nth-child(2){display: none;}
-
 /* Currency in CFAF */
 #form div[data-role=control][data-type=price] div[data-role=price-container] :after {
 display:block;
