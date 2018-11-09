@@ -1,4 +1,4 @@
-﻿/* Remove Save For Later in Page 1 */
+/* Remove Save For Later in Page 1 */
 
 #form > div:nth-child(2) > div:nth-child(3) > div > button:nth-child(2){display: none;}
 /* Remove Print in Page 1 */
@@ -29,12 +29,13 @@ padding-bottom:16px;
 line-height:30px;
 }
 /* Add button for new members */
-#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(3) > div > button {background-color: lightgray;
+#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(3) > div > button 
+{background-color: lightgray;
 padding-bottom:5px;
 line-height:15px;}
 /* colors */
 .wiGreen {
-	color: #8FBF7F;
+  color: #8FBF7F;
 }
 .leBleu {
 	color: #1b75bb;
@@ -53,20 +54,6 @@ line-height:15px;}
 .mhRow {
   background-color: #fff;
 }
-/* Create three unequal columns that floats next to each other */
-.mhColumn {
-  float: left;
-  padding: 10px;
-  height: 120px; /* Should be removed. Only for demonstration */
-}
-
-.mhLeft, .mhRight {
-width: 20%;
-}
-
-.mhMiddle {
-width: 60%;
-}
 
 /* Clear floats after the columns */
 .mhRow:after {
@@ -74,54 +61,73 @@ width: 60%;
   display: table;
   clear: both;
 }
-.mhTitle {
-  width: 100%;
-	font-size: 40pt;
-	color: #1b75bb;
-	font-weight: 900;
-  text-align: center;
-  margin: 20px 5px 5px 5px;
-}
+
 /* Headers */
 .chapterHeading {
-	font-weight: 900 !important;
-	background-color: #8FBF7F;
-	padding: 2px;
+  font-weight: 900 !important;
+  background-color: #8FBF7F;
+  padding: 2px;
 }
 
-/* IMAGES */
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+ /* Create three unequal columns that floats next to each other */
+ .mhColumn {
+  float: left;
+  padding: 10px;
+  /*  height: 120px; Should be removed. Only for demonstration */
+}
+
+.mhLeft {
+  width: 25%;
+  float: left;
+}
+
+.mhRight {
+  width: 25%;
+  float: right;
+}
+
+.mhMiddle {
+width: 50%;
+}
+.mhTitle {
+  width: 100%;
+  font-size: 4vw !important;
+  color: #1b75bb !important;
+  font-weight: 900 !important;
+  text-align: center;
+  margin: 20px 5px 5px 5px !important;
+}
+
+/* IMAGES 
 .eneoLogo {
-	width: 200px;
-	height: 90px;
-	float: left;
+  width: 200px;
+  height: 100px;
 }
 .wiLogo {
-	width: 200px;
-	height: 98px;
-	float: right;
+  width: 200px;
+  height: 100px;
 }
+*/
+
 .centered  {
   margin-left: auto;
   margin-right: auto;
 	width: 90%;
 	display: block;
 }
-/* page 1, imgPasscode */
+
+/* page 2, imgSubSectionIcon, imgWarningTriangle */
 @media (min-width: 600px) {
   #imgPasscode {
     width: 130px;
     height: 130px;
   }
-}
-@media (max-width: 600px) {
-  #imgPasscode {
-    width: 50px;
-    height: 50px;
-  }
-}
-/* page 2, imgSubSectionIcon, imgWarningTriangle */
-@media (min-width: 600px) {
-  #imgWelcomeSmiley {
+   #imgWelcomeSmiley {
     width: 100px;
     height: 100px;
   }
@@ -140,6 +146,10 @@ width: 60%;
   }
 }
 @media (max-width: 600px) {
+  #imgPasscode {
+    width: 50px;
+    height: 50px;
+  }
   #imgWelcomeSmiley {
     width: 50px;
     height: 50px;
@@ -159,18 +169,14 @@ width: 60%;
   }
 }
 /* page 3, make scorecard background color different
-
 #htmlblock-0000009b-acc{
   background-color: rgba(27,117,187,0.4);
 } 
 #htmlblock-000000a2-acc {
   background-color: rgba(27,117,187,0.4);
 }
-
-
  */
- #form > div:nth-child(6) > div:nth-child(2) > div:nth-child(7) > div:nth-child(2) > button, #form > div:nth-child(6) > div:nth-child(2) > div:nth-child(10) > div:nth-child(2) > button {
+ #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(22) > div:nth-child(2) > button, #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(26) > div:nth-child(2) > button {
 	background-color: rgba(141,198,64,0.4);
      box-shadow: 1px 1px grey;
 }
-
