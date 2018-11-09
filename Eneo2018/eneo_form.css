@@ -29,8 +29,7 @@ padding-bottom:16px;
 line-height:30px;
 }
 /* Add button for new members */
-#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(3) > div > button 
-{background-color: lightgray;
+#form > div:nth-child(6) > div:nth-child(2) > div:nth-child(3) > div > button {background-color: lightgray;
 padding-bottom:5px;
 line-height:15px;}
 /* colors */
@@ -96,7 +95,7 @@ width: 50%;
 }
 .mhTitle {
   width: 100%;
-  font-size: 4vw !important;
+  font-size: 3vw !important;
   color: #1b75bb !important;
   font-weight: 900 !important;
   text-align: center;
@@ -176,7 +175,8 @@ width: 50%;
   background-color: rgba(27,117,187,0.4);
 }
  */
- #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(22) > div:nth-child(2) > button, #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(26) > div:nth-child(2) > button {
+  #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(24) > div:nth-child(2) > button, #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(20) > div:nth-child(2) > button {
 	background-color: rgba(141,198,64,0.4);
      box-shadow: 1px 1px grey;
 }
+
